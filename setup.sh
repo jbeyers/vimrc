@@ -13,6 +13,13 @@ getgit() {
     fi
 }
 
+# In vimrc I specify a .vim-tmp directory to keep temporary files. This keeps
+# my directories clean of vim temporary files. However, that directory needs to
+# exist.
+if [ ! -e $HOME/.vim-tmp ]; then
+    mkdir $HOME/.vim-tmp
+fi
+
 # Solarized gives great syntax and editing colors
 getgit git://github.com/altercation/vim-colors-solarized.git vim-colors-solarized
 
