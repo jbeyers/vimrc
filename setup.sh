@@ -13,6 +13,11 @@ getgit() {
     fi
 }
 
+# .vimrc must be symlinked to the home directory to enable it for the user.
+if [ ! -e $HOME/.vimrc ]; then
+    ln -s $HOME/.vim/.vimrc $HOME/.vimrc
+fi
+
 # In vimrc I specify a .vim-tmp directory to keep temporary files. This keeps
 # my directories clean of vim temporary files. However, that directory needs to
 # exist.
