@@ -33,3 +33,6 @@ getgit https://github.com/msanders/snipmate.vim.git snipmate.vim
 
 # Sparkup expands a haml-like syntax to html
 getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
+
+# Matchit jumps between tags in html etc. Might be part of a standard install
+getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
