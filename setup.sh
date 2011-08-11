@@ -11,5 +11,8 @@ getgit() {
     fi
 }
 
+# Solarized gives great syntax and editing colors
 getgit git://github.com/altercation/vim-colors-solarized.git vim-colors-solarized
+
+# snipmate adds snippet functionality
 getgit https://github.com/msanders/snipmate.vim.git snipmate.vim
