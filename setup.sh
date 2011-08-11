@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Until I am comfortable with git submodules, this will have to do. Also, it is
+# a simple way to get the newest code.
 getgit() {
     echo "=== Installing "$2" ===="
     if [ -e bundle/$2 ]; then
