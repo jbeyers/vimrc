@@ -20,4 +20,4 @@ getgit git://github.com/altercation/vim-colors-solarized.git vim-colors-solarize
 getgit https://github.com/msanders/snipmate.vim.git snipmate.vim
 
 # Sparkup expands a haml-like syntax to html
-getgit https://github.com/bingaman/vim-sparkup.git
+getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
