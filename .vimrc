@@ -1,3 +1,7 @@
+" Start off with Pathongen to manage plugins. See:
+" https://github.com/tpope/vim-pathogen
+call pathogen#infect()
+
 " Settings that I use every day.
 behave xterm
 set autoindent
