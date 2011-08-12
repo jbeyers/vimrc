@@ -79,6 +79,10 @@ autocmd BufNewFile,BufRead *.py set tabstop=4 shiftwidth=4
 autocmd BufNewFile,BufRead *.vdex set filetype=xml
 au BufNewFile,BufRead *.zctl set filetype=python
 
+" Recognise pt and zcml files
+au BufNewFile,BufRead *.pt set filetype=html.pt
+au BufNewFile,BufRead *.zcml set filetype=xml.zcml
+
 " Stuff for flex development
 autocmd BufNewFile,BufRead *.mxml compiler flex
 au BufNewFile,BufRead *.mxml set filetype=xml

@@ -31,6 +31,9 @@ getgit git://github.com/altercation/vim-colors-solarized.git vim-colors-solarize
 # snipmate adds snippet functionality
 getgit https://github.com/msanders/snipmate.vim.git snipmate.vim
 
+# zope snipmate bundle
+getgit http://github.com/zedr/zope-snipmate-bundle.git zope-snipmate-bundle
+
 # Sparkup expands a haml-like syntax to html
 getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
 
