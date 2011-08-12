@@ -36,15 +36,17 @@ endif
 map <C-S-Tab> :bp<C-M>
 map <C-Tab> :bn<C-M>
 
-function InsertTabWrapper()
-  let col = col('.') - 1
-  if !col || getline('.')[col - 1] !~ '\k'
-    return "\<tab>"     
-  else
-    return "\<c-p>"
-  endif
-endfunction
-inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+" This is commented out because it messes with snipMate tab completion. Still
+" need to see if it works better this way.
+" function InsertTabWrapper()
+"   let col = col('.') - 1
+"   if !col || getline('.')[col - 1] !~ '\k'
+"     return "\<tab>"     
+"   else
+"     return "\<c-p>"
+"   endif
+" endfunction
+" inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 "       iskeyword:  Add the dash ('-') as "letter" to "words".
 "       iskeyword=@,48-57,_,192-255   (default)
