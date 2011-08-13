@@ -39,3 +39,6 @@ getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
 
 # Matchit jumps between tags in html etc. Might be part of a standard install
 getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
+
+# Matchit jumps between tags in html etc. Might be part of a standard install
+getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim

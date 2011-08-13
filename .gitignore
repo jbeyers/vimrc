@@ -3,3 +3,4 @@ bundle/vim-colors-solarized
 bundle/vim-sparkup
 bundle/vim-matchit
 bundle/zope-snipmate-bundle
+bundle/pyflakes-vim
