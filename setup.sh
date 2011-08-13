@@ -37,14 +37,17 @@ getgit http://github.com/zedr/zope-snipmate-bundle.git zope-snipmate-bundle
 # Sparkup expands a haml-like syntax to html
 getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
 
-# Matchit jumps between tags in html etc. Might be part of a standard install
+# Surround stuff with tags
 getgit https://github.com/tpope/vim-surround.git vim-surround
 
-# Matchit jumps between tags in html etc. Might be part of a standard install
+# Extends surround with specific tags
+getgit https://github.com/tpope/vim-ragtag.git vim-ragtag
+
+# Repeats things in script files.
 getgit https://github.com/tpope/vim-repeat.git vim-repeat
 
 # Matchit jumps between tags in html etc. Might be part of a standard install
 getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
 
-# Matchit jumps between tags in html etc. Might be part of a standard install
+# On-the-fly python syntax checking
 getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
