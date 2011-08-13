@@ -1,6 +1,8 @@
 bundle/snipmate.vim
 bundle/vim-colors-solarized
 bundle/vim-sparkup
+bundle/vim-surround
+bundle/vim-repeat
 bundle/vim-matchit
 bundle/zope-snipmate-bundle
 bundle/pyflakes-vim

@@ -38,6 +38,12 @@ getgit http://github.com/zedr/zope-snipmate-bundle.git zope-snipmate-bundle
 getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
 
 # Matchit jumps between tags in html etc. Might be part of a standard install
+getgit https://github.com/tpope/vim-surround.git vim-surround
+
+# Matchit jumps between tags in html etc. Might be part of a standard install
+getgit https://github.com/tpope/vim-repeat.git vim-repeat
+
+# Matchit jumps between tags in html etc. Might be part of a standard install
 getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
 
 # Matchit jumps between tags in html etc. Might be part of a standard install
