@@ -9,7 +9,7 @@ getgit() {
         git pull
         popd
     else
-        git clone $1 bundle/$2
+        git clone --recursive $1 bundle/$2
     fi
 }
 
