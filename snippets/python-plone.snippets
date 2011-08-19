@@ -1,0 +1,48 @@
+# Snippets for plone
+# catalog queries
+snippet pc
+	from Products.CMFCore.utils import getToolByName
+	from DateTime import DateTime
+	pc = getToolByName(${1:self.context}, 'portal_catalog')
+	query = {'portal_type' : '${2}',
+			 'review_state' : '${3:published}',
+			 'sort_on' : 'getObjPositionInParent',
+			 'sort_order' : 'reverse',
+			 'path' : {'query' : '/'.join(portal.getPhysicalPath()),
+					   'depth' : 1},
+			 'getEnd' : {'query' : DateTime(),
+						 'range' : 'max'
+						}
+			}
+	brains = pc(query)
+
+# members, users
+snippet pm
+	pm = getToolByName(${1:self.context}, 'portal_membership')
+	user = pm.getAuthenticatedMember()
+	if not pm.checkPermission('${2}', ${3:self.context}):
+		return False
+
+# Getting the portal
+snippet pu
+	portal_url = getToolByName(${1:self.context}, 'portal_url')
+	portal = portal_url.getPortalObject()
+
+# Boilerplate for zctl files
+snippet bp_zctl
+	""" Run this script to ${1}.
+
+	Run via ./bin/instance run <filename>
+	"""
+
+	import transaction
+	from AccessControl.SecurityManagement import newSecurityManager
+	from Products.CMFCore.utils import getToolByName
+
+	user = app.acl_users.getUser('admin')
+	newSecurityManager(None, user.__of__(app.acl_users))
+	portal = app['ShipTrack']
+
+	${2:# Your code here}
+
+	transaction.commit()
