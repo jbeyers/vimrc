@@ -83,6 +83,11 @@ au BufNewFile,BufRead *.zctl set filetype=python
 au BufNewFile,BufRead *.pt set filetype=html.pt
 au BufNewFile,BufRead *.zcml set filetype=xml.zcml
 
+" Snipmate needs to recognise files for snipmate_for_django.
+au FileType python set ft=python.django " For SnipMate
+au FileType html set ft=htmldjango.html " For SnipMate
+
+
 " Stuff for flex development
 autocmd BufNewFile,BufRead *.mxml compiler flex
 au BufNewFile,BufRead *.mxml set filetype=xml

@@ -34,6 +34,9 @@ getgit https://github.com/msanders/snipmate.vim.git snipmate.vim
 # zope snipmate bundle
 getgit http://github.com/zedr/zope-snipmate-bundle.git zope-snipmate-bundle
 
+# django snipmate bundle
+getgit http://github.com/robhudson/snipmate_for_django.git snipmate_for_django
+
 # Sparkup expands a haml-like syntax to html
 getgit https://github.com/bingaman/vim-sparkup.git vim-sparkup
 

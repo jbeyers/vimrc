@@ -6,4 +6,5 @@ bundle/vim-ragtag
 bundle/vim-repeat
 bundle/vim-matchit
 bundle/zope-snipmate-bundle
+bundle/snipmate_for_django
 bundle/pyflakes-vim
