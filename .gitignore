@@ -9,3 +9,5 @@ bundle/vim-matchit
 bundle/zope-snipmate-bundle
 bundle/snipmate_for_django
 bundle/pyflakes-vim
+bundle/tabular/
+bundle/vim-puppet/
