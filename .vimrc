@@ -5,7 +5,6 @@ call pathogen#infect()
 " Settings that I use every day.
 behave xterm
 set autoindent
-set smartindent
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backspace=2
