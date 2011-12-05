@@ -63,3 +63,6 @@ getgit https://github.com/rodjek/vim-puppet.git vim-puppet
 
 # Mako syntax highlighting, used with pyramid
 getgit https://github.com/vim-scripts/mako.vim.git mako.vim
+
+# NERDTree tree browser
+getgit https://github.com/scrooloose/nerdtree.git nerdtree
