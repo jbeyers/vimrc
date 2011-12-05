@@ -69,3 +69,6 @@ getgit https://github.com/scrooloose/nerdtree.git nerdtree
 
 # Syntastic syntax checker
 getgit https://github.com/scrooloose/syntastic.git syntastic
+
+# Shows errors in the status line. Makes the Syntastic workflow smoother.
+getgit https://github.com/dannyob/quickfixstatus.git quickfixstatus
