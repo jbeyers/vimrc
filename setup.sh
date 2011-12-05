@@ -53,7 +53,7 @@ getgit https://github.com/tpope/vim-repeat.git vim-repeat
 getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
 
 # On-the-fly python syntax checking
-getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
+#getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
 
 # Text filtering and alignment
 getgit https://github.com/godlygeek/tabular.git tabular
@@ -66,3 +66,6 @@ getgit https://github.com/vim-scripts/mako.vim.git mako.vim
 
 # NERDTree tree browser
 getgit https://github.com/scrooloose/nerdtree.git nerdtree
+
+# Syntastic syntax checker
+getgit https://github.com/scrooloose/syntastic.git syntastic
