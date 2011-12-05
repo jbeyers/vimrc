@@ -97,8 +97,5 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-# Syntastic disable the signs down the left-hand side
+" Syntastic disable the signs down the left-hand side
 let g:syntastic_enable_signs=0
-
-" Enable the quickfix statusline plugin
-QuickfixStatusEnable
