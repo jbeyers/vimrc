@@ -70,6 +70,9 @@ nmap ;rcm %s/<C-M>$//g
 " Insert current date
 map ;id O<C-R>=strftime("%c")<cr><Esc>
 
+" Tidy up html
+map ;ht :!tidy -q -i --show-errors 0<CR>
+
 " xml and html files tabstops should be 4 spaces
 autocmd BufNewFile,BufRead *.py set tabstop=4 shiftwidth=4
 
