@@ -55,12 +55,6 @@ getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
 # On-the-fly python syntax checking
 #getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
 
-# Text filtering and alignment
-getgit https://github.com/godlygeek/tabular.git tabular
-
-# Text filtering and alignment
-getgit https://github.com/rodjek/vim-puppet.git vim-puppet
-
 # Mako syntax highlighting, used with pyramid
 getgit https://github.com/vim-scripts/mako.vim.git mako.vim
 
