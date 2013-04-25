@@ -66,3 +66,6 @@ getgit https://github.com/scrooloose/syntastic.git syntastic
 
 # Shows errors in the status line. Makes the Syntastic workflow smoother.
 getgit https://github.com/dannyob/quickfixstatus.git quickfixstatus
+
+# Arduino compilation/upload from within vim
+getgit https://github.com/tclem/vim-arduino.git vim-arduino
