@@ -4,7 +4,8 @@ call pathogen#infect()
 
 " Settings that I use every day.
 behave xterm
-set smartindent
+" Automatically use indenting according to filetype
+:filetype indent on
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backspace=2
@@ -30,8 +31,10 @@ colorscheme solarized
 "syntax on
 
 " Next and previous buffers
-map <C-S-Tab> :bp<C-M>
-map <C-Tab> :bn<C-M>
+" These are commented out, since I use Terminator, which maps these to
+" next/previous windows in the terminal.
+"map <C-S-Tab> :bp<C-M>
+"map <C-Tab> :bn<C-M>
 
 " This is commented out because it messes with snipMate tab completion. Still
 " need to see if it works better this way.
@@ -86,7 +89,6 @@ au BufNewFile,BufRead *.zcml set filetype=xml.zcml
 " Snipmate needs to recognise files for snipmate_for_django.
 au FileType python set ft=python.django " For SnipMate
 au FileType html set ft=htmldjango.html " For SnipMate
-
 
 " Stuff for flex development
 au BufNewFile,BufRead *.mxml set filetype=xml
