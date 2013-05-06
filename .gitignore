@@ -15,3 +15,4 @@ bundle/mako.vim/
 bundle/nerdtree/
 bundle/syntastic/
 bundle/quickfixstatus/
+bundle/vim-arduino
