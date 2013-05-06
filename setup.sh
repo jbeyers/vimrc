@@ -25,6 +25,11 @@ if [ ! -e $HOME/.vim-tmp ]; then
     mkdir $HOME/.vim-tmp
 fi
 
+# Create a bundle directory for all the git packages
+if [ ! -e bundle ]; then
+    mkdir bundle
+fi
+
 # Solarized gives great syntax and editing colors
 getgit git://github.com/altercation/vim-colors-solarized.git vim-colors-solarized
 
