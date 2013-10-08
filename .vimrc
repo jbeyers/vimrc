@@ -89,7 +89,9 @@ au BufNewFile,BufRead *.zcml set filetype=xml.zcml
 " Snipmate needs to recognise files for snipmate_for_django.
 au FileType python set ft=python.django " For SnipMate
 au FileType html set ft=htmldjango.html " For SnipMate
-au filetype css setlocal equalprg=csstidy\ -\ --template=low\ preserve_css=true\ --sort_properties=true\ --silent=true 
+
+" CSS tidy integration
+au filetype css setlocal equalprg=csstidy\ -\ --template=low\ --preserve_css=true\ --silent=true 
 
 " Stuff for flex development
 au BufNewFile,BufRead *.mxml set filetype=xml
