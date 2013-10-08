@@ -91,7 +91,7 @@ au FileType python set ft=python.django " For SnipMate
 au FileType html set ft=htmldjango.html " For SnipMate
 
 " CSS tidy integration
-au filetype css setlocal equalprg=csstidy\ -\ --template=low\ --preserve_css=true\ --silent=true 
+au filetype css setlocal equalprg=csstidy\ -\ --template=$HOME/.vim/curly.tpl\ --preserve_css=true\ --silent=true 
 
 " Stuff for flex development
 au BufNewFile,BufRead *.mxml set filetype=xml
