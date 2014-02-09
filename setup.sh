@@ -74,3 +74,5 @@ getgit https://github.com/dannyob/quickfixstatus.git quickfixstatus
 
 # Arduino compilation/upload from within vim
 getgit https://github.com/tclem/vim-arduino.git vim-arduino
+
+getgit git@github.com:sirtaj/vim-openscad.git vim-openscad
