@@ -55,7 +55,7 @@ getgit https://github.com/tpope/vim-ragtag.git vim-ragtag
 getgit https://github.com/tpope/vim-repeat.git vim-repeat
 
 # Matchit jumps between tags in html etc. Might be part of a standard install
-getgit https://github.com/tsaleh/vim-matchit.git vim-matchit
+getgit https://github.com/edsono/vim-matchit.git vim-matchit
 
 # On-the-fly python syntax checking
 #getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
