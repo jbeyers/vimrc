@@ -105,3 +105,5 @@ set statusline+=%*
 
 " Syntastic disable the signs down the left-hand side
 let g:syntastic_enable_signs=0
+" syntastic js checker jshint
+let g:syntastic_javascript_checkers = ['jshint']
