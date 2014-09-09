@@ -69,7 +69,7 @@ nmap ;r a/<esc>f dt>
 nmap ;rcm %s/<C-M>$//g
 
 " Insert current date
-map ;id O<C-R>=strftime("%c")<cr><Esc>
+map ;d O<C-R>=strftime("%Y-%m-%d")<cr><Esc>
 
 " Tidy up html
 map ;ht :!tidy -q -i --show-errors 0<CR>
