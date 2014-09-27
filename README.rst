@@ -4,6 +4,8 @@ A quick guide to getting this all to work:
 This is my .vimrc file and .vim directory, with a setup script to set it up on
 a new machine.
 
+Managed by Ansible since 2014
+
 Prerequisites
 =============
 
