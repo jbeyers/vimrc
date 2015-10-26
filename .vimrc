@@ -76,6 +76,7 @@ map ;ht :!tidy -q -i --show-errors 0<CR>
 
 " xml and html files tabstops should be 4 spaces
 autocmd BufNewFile,BufRead *.py set tabstop=4 shiftwidth=4
+autocmd BufNewFile,BufRead *.yml set tabstop=2 shiftwidth=2
 
 " Plone dev
 " Vdex files (ATVocabularyManager uses these)
