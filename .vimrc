@@ -108,3 +108,6 @@ set statusline+=%*
 let g:syntastic_enable_signs=0
 " syntastic js checker jshint
 let g:syntastic_javascript_checkers = ['jshint']
+
+" flake8 automatic syntax checking
+autocmd FileType python map <buffer> <F3> :call Flake8()<CR>

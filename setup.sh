@@ -55,7 +55,7 @@ getgit https://github.com/tpope/vim-ragtag.git vim-ragtag
 getgit https://github.com/tpope/vim-repeat.git vim-repeat
 
 # On-the-fly python syntax checking
-#getgit https://github.com/kevinw/pyflakes-vim.git pyflakes-vim
+getgit https://github.com/nvie/vim-flake8.git vim-flake8
 
 # Mako syntax highlighting, used with pyramid
 getgit https://github.com/vim-scripts/mako.vim.git mako.vim
