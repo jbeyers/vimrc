@@ -97,6 +97,10 @@ au filetype css setlocal equalprg=csstidy\ -\ --template=$HOME/.vim/curly.tpl\ -
 " Stuff for flex development
 au BufNewFile,BufRead *.mxml set filetype=xml
 au BufNewFile,BufRead *.as set filetype=actionscript
+"
+" Arduino development
+au BufNewFile,BufRead *.ino set filetype=arduino
+
 syntax on
 
 " Syntastic status line.
