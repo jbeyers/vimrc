@@ -75,5 +75,5 @@ getgit https://github.com/tclem/vim-arduino.git vim-arduino
 # openscad syntax file
 getgit https://github.com/sirtaj/vim-openscad.git vim-openscad
 
-# django plus for better template indentation
-getgit https://github.com/tweekmonster/django-plus.vim django-plus
+# django plus for better template indentation. Commented out, does not work
+# getgit https://github.com/tweekmonster/django-plus.vim django-plus
