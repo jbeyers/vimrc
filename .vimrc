@@ -89,7 +89,7 @@ au BufNewFile,BufRead *.zcml set filetype=xml.zcml
 
 " Snipmate needs to recognise files for snipmate_for_django.
 au FileType python set ft=python.django " For SnipMate
-au FileType html set ft=htmldjango " For SnipMate
+au FileType html set ft=htmldjango.html " For SnipMate
 
 " CSS tidy integration
 au filetype css setlocal equalprg=csstidy\ -\ --template=$HOME/.vim/curly.tpl\ --preserve_css=true\ --silent=true 
