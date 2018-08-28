@@ -66,7 +66,7 @@ nmap ;t Oimport pdb;pdb.set_trace()<esc>
 nmap ;r a/<esc>f dt>
 
 " Remove "control-m"s at the end of lines
-nmap ;rcm :%s/<C-M>$//g
+nmap ;rcm :%s/$//g
 
 " Insert current date
 map ;d O<C-R>=strftime("%Y-%m-%d")<cr><Esc>
