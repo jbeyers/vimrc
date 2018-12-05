@@ -115,3 +115,11 @@ let g:syntastic_javascript_checkers = ['jshint']
 
 " flake8 automatic syntax checking
 autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
+
+" Get sparkup to work on all html-like files
+augroup sparkup_types
+  " Remove ALL autocommands of the current group.
+  autocmd!
+  " Add sparkup to new filetypes
+  autocmd FileType php,htmldjango,htmldjango.html,html.pt runtime! ftplugin/html/sparkup.vim
+augroup END
